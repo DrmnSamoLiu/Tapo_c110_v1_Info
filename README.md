@@ -4,7 +4,7 @@
 
 UART pads are on the side of PCB facing backward (Although it's labeld TOP at bottom right corner).
 
-Baurate: 115200
+Baudrate: 115200
 
 
 ---
