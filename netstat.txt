@@ -1,6 +1,4 @@
 [FW: 1.1.8 Build 210728 Rel.34711n(4555)]
-
-
 ---------------------
 
 Active Internet connections (only servers)
@@ -18,3 +16,24 @@ udp        0      0 0.0.0.0:20002           0.0.0.0:*                           
 udp        0      0 0.0.0.0:53              0.0.0.0:*                           1563/dnsd
 udp        0      0 0.0.0.0:67              0.0.0.0:*                           1819/udhcpd
 udp        0      0 0.0.0.0:3702            0.0.0.0:*                           1460/nvid
+
+
+
+
+
+[FW: 1.1.12 Build 211028 Rel.22161n(4555)]
+---------------------
+
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 127.0.0.1:23            0.0.0.0:*               LISTEN      1470/telnetd
+tcp        0      0 127.0.0.1:921           0.0.0.0:*               LISTEN      1520/relayd
+tcp        0      0 127.0.0.1:922           0.0.0.0:*               LISTEN      1522/rtspd
+tcp        0      0 0.0.0.0:443             0.0.0.0:*               LISTEN      1502/uhttpd
+tcp        0      0 0.0.0.0:8800            0.0.0.0:*               LISTEN      1730/cet
+tcp        0      0 127.0.0.1:929           0.0.0.0:*               LISTEN      1519/p2pd
+tcp        0      0 0.0.0.0:20002           0.0.0.0:*               LISTEN      892/tp_manage
+tcp        0      0 0.0.0.0:2020            0.0.0.0:*               LISTEN      1689/nvid
+tcp        0      0 0.0.0.0:554             0.0.0.0:*               LISTEN      1730/cet
+udp        0      0 0.0.0.0:20002           0.0.0.0:*                           892/tp_manage
+udp        0      0 0.0.0.0:3702            0.0.0.0:*                           1689/nvid
