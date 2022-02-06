@@ -1,3 +1,8 @@
+[FW: 1.1.8 Build 210728 Rel.34711n(4555)]
+
+
+---------------------
+
 Active Internet connections (only servers)
 Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
 tcp        0      0 127.0.0.1:23            0.0.0.0:*               LISTEN      1335/telnetd
