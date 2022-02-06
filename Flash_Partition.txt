@@ -1,3 +1,9 @@
+[FW: 1.1.8 Build 210728 Rel.34711n(4555)]
+
+
+---------------------
+
+
 [    1.180254] Creating 10 MTD partitions on "NOR_FLASH":
 [    1.185297] 0x000000000000-0x00000002d800 : "factory_boot"
 [    1.190727] mtd: partition "factory_boot" doesn't end on an erase block -- force read-only
