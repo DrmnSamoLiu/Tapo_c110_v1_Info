@@ -1,0 +1,15 @@
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 127.0.0.1:23            0.0.0.0:*               LISTEN      1335/telnetd
+tcp        0      0 127.0.0.1:921           0.0.0.0:*               LISTEN      1367/relayd
+tcp        0      0 127.0.0.1:922           0.0.0.0:*               LISTEN      1369/rtspd
+tcp        0      0 0.0.0.0:443             0.0.0.0:*               LISTEN      1348/uhttpd
+tcp        0      0 0.0.0.0:8800            0.0.0.0:*               LISTEN      1485/cet
+tcp        0      0 127.0.0.1:929           0.0.0.0:*               LISTEN      1368/p2pd
+tcp        0      0 0.0.0.0:20002           0.0.0.0:*               LISTEN      670/tp_manage
+tcp        0      0 0.0.0.0:2020            0.0.0.0:*               LISTEN      1460/nvid
+tcp        0      0 0.0.0.0:554             0.0.0.0:*               LISTEN      1485/cet
+udp        0      0 0.0.0.0:20002           0.0.0.0:*                           670/tp_manage
+udp        0      0 0.0.0.0:53              0.0.0.0:*                           1563/dnsd
+udp        0      0 0.0.0.0:67              0.0.0.0:*                           1819/udhcpd
+udp        0      0 0.0.0.0:3702            0.0.0.0:*                           1460/nvid
