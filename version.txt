@@ -1,0 +1,1 @@
+Linux version 4.9.84 (root@smartlifeci1) (gcc version 4.9.4 (Buildroot 2017.08-gc7bbae9-dirty) ) #2 PREEMPT Wed Jul 28 09:38:22 CST 2021
