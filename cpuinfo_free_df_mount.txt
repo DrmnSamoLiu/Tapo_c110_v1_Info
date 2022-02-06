@@ -1,3 +1,9 @@
+[FW: 1.1.8 Build 210728 Rel.34711n(4555)]
+
+
+---------------------
+
+
 processor       : 0
 model name      : ARMv7 Processor rev 5 (v7l)
 cpu MHz         : 800.016
