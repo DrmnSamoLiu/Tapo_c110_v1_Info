@@ -53,7 +53,7 @@ Baudrate: 115200
 
 <br>
 
-The pads are on the edge of the PCB and seperated in 2.54mm pitch so it's perfect to solder pin connectors to it.<br>
+The pads are on the edge of the PCB and seperated in 2.54mm pitch, so it's perfect to solder pin connectors to it.<br>
 Even so, the UART pads are still easy to be torn off so be careful while connecting/disconnecting!
 <br>
 
