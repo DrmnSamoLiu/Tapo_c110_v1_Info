@@ -1,0 +1,47 @@
+processor       : 0
+model name      : ARMv7 Processor rev 5 (v7l)
+cpu MHz         : 800.016
+BogoMIPS        : 12.00
+Features        : half thumb fastmult vfp edsp thumbee neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm 
+CPU implementer : 0x41
+CPU architecture: 7
+CPU variant     : 0x0
+CPU part        : 0xc07
+CPU revision    : 5
+
+Hardware        : SStar Soc (Flattened Device Tree)
+Revision        : 0000
+Serial          : 0000000000000000
+
+
+---------------------
+
+             total         used         free       shared      buffers
+Mem:         43220        33228         9992         1260          736
+-/+ buffers:              32492        10728
+Swap:            0            0            0
+
+
+---------------------
+
+
+Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/root                 2432      2432         0 100% /rom
+devtmpfs                 20584        16     20568   0% /dev
+tmpfs                    21612      1212     20400   6% /tmp
+rwroot                   21608         4     21604   0% /overlay
+/dev/mtdblock7            3200      3200         0 100% /rom/sp_rom
+overlayfs:/overlay/upper
+                         21608         4     21604   0% /
+
+---------------------
+
+/dev/root on /rom type squashfs (ro,relatime)
+devtmpfs on /dev type devtmpfs (rw,relatime,size=20584k,nr_inodes=5146,mode=755)
+proc on /proc type proc (rw,noatime)
+sysfs on /sys type sysfs (rw,noatime)
+tmpfs on /tmp type tmpfs (rw,nosuid,nodev,noatime,size=21612k)
+devpts on /dev/pts type devpts (rw,noatime,mode=600,ptmxmode=000)
+rwroot on /overlay type tmpfs (rw,noatime)
+/dev/mtdblock7 on /rom/sp_rom type squashfs (ro,noatime)
+overlayfs:/overlay/upper on / type overlay (rw,noatime,lowerdir=/sp_rom:/,upperdir=/overlay/upper,workdir=/overlay/work)
