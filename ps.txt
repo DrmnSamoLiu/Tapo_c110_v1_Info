@@ -1,0 +1,86 @@
+  PID USER       VSZ STAT COMMAND
+    1 root      1176 S    init
+    2 root         0 SW   [kthreadd]
+    3 root         0 SW   [ksoftirqd/0]
+    4 root         0 SW   [kworker/0:0]
+    5 root         0 SW<  [kworker/0:0H]
+    6 root         0 SW   [kworker/u2:0]
+    7 root         0 SW   [rcu_preempt]
+    8 root         0 SW   [rcu_sched]
+    9 root         0 SW   [rcu_bh]
+   10 root         0 SW<  [lru-add-drain]
+   11 root         0 SW   [watchdog/0]
+   12 root         0 SW   [kdevtmpfs]
+   13 root         0 SW<  [netns]
+   14 root         0 SW   [kworker/u2:1]
+  147 root         0 SW   [oom_reaper]
+  148 root         0 SW<  [writeback]
+  150 root         0 SW   [kcompactd0]
+  151 root         0 SW<  [crypto]
+  152 root         0 SW<  [bioset]
+  154 root         0 SW<  [kblockd]
+  177 root         0 SW   [kworker/0:1]
+  178 root         0 SW<  [cfg80211]
+  180 root         0 SW<  [watchdogd]
+  198 root         0 SW   [kswapd0]
+  280 root         0 DW   [ehci_monitor]
+  290 root         0 SW   [urdma_tx_thread]
+  313 root         0 SW   [kworker/0:2]
+  317 root         0 SW<  [bioset]
+  322 root         0 SW<  [bioset]
+  327 root         0 SW<  [bioset]
+  332 root         0 SW<  [bioset]
+  337 root         0 SW<  [bioset]
+  342 root         0 SW<  [bioset]
+  347 root         0 SW<  [bioset]
+  352 root         0 SW<  [bioset]
+  357 root         0 SW<  [bioset]
+  362 root         0 SW<  [bioset]
+  373 root         0 SW   [monitor_temp]
+  389 root         0 SW<  [kworker/0:1H]
+  582 root      1180 S    /bin/ash --login
+  616 root       880 S    /sbin/hotplug2 --override --persistent --set-rules-file /etc/hotplug2.rules --set-coldplug-cmd /sbin/udev
+  652 root       812 S    /sbin/ubusd
+  670 root      6996 S    tp_manage
+  736 root         0 DW   [reset_thread]
+  799 root      3020 S    /usr/bin/ledd
+  849 root     11124 S    /usr/sbin/wlan-manager
+  865 root      1172 S    udhcpc -p /var/run/udhcpc_C110_AA98D6.pid -s /lib/network/dhcp.script -f -t 0 -H C110_AA98D6 -i br-wan -R
+  929 root         0 SW<  [Sstar_wq]
+  930 root         0 SW   [usb_Sstar_bh]
+  945 root         0 SW   [Sstar_wtd]
+ 1120 root      6376 S    /usr/bin/onboarding
+ 1200 root     10612 S    /usr/bin/dsd
+ 1216 root      3128 S    /bin/cloud-brd -c /var/etc/cloud_brd_conf
+ 1218 root     12936 S    /bin/cloud-service
+ 1324 root     11540 S    /bin/cloud-client
+ 1335 root      1168 S    /usr/sbin/telnetd -b 127.0.0.1 -l /bin/login.sh
+ 1348 root      2692 S    /usr/sbin/uhttpd -f -h /www -T 180 -A 0 -n 8 -R -r C110 -C /tmp/uhttpd.crt -K /tmp/uhttpd.key -s 443
+ 1367 root     14988 S    /usr/bin/relayd
+ 1368 root      3928 S    /usr/bin/p2pd
+ 1369 root     21044 S    /usr/bin/rtspd
+ 1376 root      3700 S    /bin/storage_manager
+ 1396 root         0 SW   [SensorIfThreadW]
+ 1397 root         0 SW   [IspDriverThread]
+ 1453 root      3008 S    /bin/telemetry
+ 1460 root      9532 S    /bin/nvid
+ 1469 root      7388 S    /bin/wtd
+ 1482 root      1176 S    /usr/sbin/ntpd -n -p time.nist.gov -p 133.100.9.2 -p 128.138.140.44 -p 192.36.144.22 -p time-a.nist.gov -
+ 1485 root     69608 S    /bin/cet
+ 1493 root         0 DWN  [mi_log]
+ 1494 root         0 DW   [vif0_P0_MAIN]
+ 1495 root         0 DW   [vif1_P0_MAIN]
+ 1496 root         0 DW   [vpe0_P0_MAIN]
+ 1497 root         0 DW   [vpe0_P1_MAIN]
+ 1498 root         0 DW   [vpe0_P2_MAIN]
+ 1499 root         0 DWN  [VEP_DumpTaskThr]
+ 1501 root         0 SW   [RGN BUF WQ]
+ 1502 root         0 DW   [venc0_P0_MAIN]
+ 1503 root         0 DW   [venc1_P0_MAIN]
+ 1515 root         0 DW   [ai0_P0_MAIN]
+ 1560 root         0 DW   [divp0_P0_MAIN]
+ 1563 root      1172 S    dnsd
+ 1779 root      1120 S    wpa_supplicant -B -Dwext -iwlan0 -P/tmp/supplicant_pid -C/var/run/wpa_supplicant -bbr-wan
+ 1819 root      1176 S    /usr/sbin/udhcpd /tmp/udhcpd.conf
+ 1849 root      1064 S    hostapd -B -P /tmp/hostapd_pid /tmp/hostapd.conf
+ 2170 root      1172 R    ps w
