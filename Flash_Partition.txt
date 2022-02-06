@@ -1,0 +1,42 @@
+[    1.180254] Creating 10 MTD partitions on "NOR_FLASH":
+[    1.185297] 0x000000000000-0x00000002d800 : "factory_boot"
+[    1.190727] mtd: partition "factory_boot" doesn't end on an erase block -- force read-only
+[    1.200307] 0x00000002d800-0x000000030000 : "factory_info"
+[    1.205960] mtd: partition "factory_info" doesn't start on an erase block boundary -- force read-only
+[    1.216291] 0x000000030000-0x000000040000 : "art"
+[    1.222308] 0x000000040000-0x000000060000 : "config"
+[    1.228645] 0x000000060000-0x000000080000 : "normal_boot"
+[    1.235846] 0x000000080000-0x0000001e7200 : "kernel"
+[    1.240657] mtd: partition "kernel" doesn't end on an erase block -- force read-only
+[    1.250009] 0x0000001e7200-0x000000440000 : "rootfs"
+[    1.255176] mtd: partition "rootfs" doesn't start on an erase block boundary -- force read-only
+[    1.265117] 0x000000440000-0x0000007ffe00 : "rootfs_data"
+[    1.270363] mtd: partition "rootfs_data" doesn't end on an erase block -- force read-only
+[    1.280218] 0x0000007ffe00-0x000000800000 : "verify"
+[    1.285328] mtd: partition "verify" doesn't start on an erase block boundary -- force read-only
+[    1.295217] 0x000000080000-0x000000800000 : "firmware"
+
+
+0x000000000000-0x00000002d800 : "factory_boot"
+0x00000002d800-0x000000030000 : "factory_info"
+0x000000030000-0x000000040000 : "art"
+0x000000040000-0x000000060000 : "config"
+0x000000060000-0x000000080000 : "normal_boot"
+0x000000080000-0x0000001e7200 : "kernel"
+0x0000001e7200-0x000000440000 : "rootfs"
+0x000000440000-0x0000007ffe00 : "rootfs_data"
+0x0000007ffe00-0x000000800000 : "verify"
+0x000000080000-0x000000800000 : "firmware"
+
+
+dev:    size   erasesize  name
+mtd0: 0002d800 00010000 "factory_boot"
+mtd1: 00002800 00010000 "factory_info"
+mtd2: 00010000 00010000 "art"
+mtd3: 00020000 00010000 "config"
+mtd4: 00020000 00010000 "normal_boot"
+mtd5: 00167200 00010000 "kernel"
+mtd6: 00258e00 00010000 "rootfs"
+mtd7: 003bfe00 00010000 "rootfs_data"
+mtd8: 00000200 00010000 "verify"
+mtd9: 00780000 00010000 "firmware"
