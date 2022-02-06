@@ -39,7 +39,7 @@ SSW101B by SigmaStar <br><br>
 
 ## UART
 
-UART pads are on the side of PCB facing backward (Although it's labeld TOP at bottom right corner).
+UART pads are on the side of PCB facing backward (Although it's labeld TOP on the bottom right corner).
 
 Baudrate: 115200
 
