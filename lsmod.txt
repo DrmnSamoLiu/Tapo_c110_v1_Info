@@ -1,0 +1,31 @@
+Module                  Size  Used by    Tainted: P  
+drv_ms_cus_sc3335_MIPI     4212  0 [permanent]
+mi_venc               129288  0 [permanent]
+mi_vif                 33290  0 [permanent]
+mi_sensor              17496  0 [permanent]
+mi_vpe                112176  0 [permanent]
+mi_divp                41952  0 [permanent]
+mi_rgn                 62636  2 mi_vpe,mi_divp,[permanent]
+mi_ao                  60508  0 [permanent]
+mi_ai                 172456  0 [permanent]
+mi_sys                341764  8 mi_venc,mi_vif,mi_sensor,mi_vpe,mi_divp,mi_rgn,mi_ao,mi_ai,[permanent]
+mi_common               3796 17 mi_venc,mi_vif,mi_sensor,mi_vpe,mi_divp,mi_rgn,mi_ao,mi_ai,mi_sys,[permanent]
+mhal                 1135344 10 drv_ms_cus_sc3335_MIPI,mi_venc,mi_vif,mi_sensor,mi_vpe,mi_divp,mi_rgn,mi_ao,mi_ai,mi_sys,[permanent]
+ssw101b_wifi_usb      415096  0 
+gpio_leds               1040  0 
+k_hi_reset              1868  0 
+port_status_notify       964  0 
+xt_iprange               960  0 
+xt_multiport             960  0 
+xt_mac                   640  0 
+iptable_filter           896  0 
+ip_tables               6308  1 iptable_filter
+xt_tcpudp               1408  0 
+x_tables                7364  6 xt_iprange,xt_multiport,xt_mac,iptable_filter,ip_tables,xt_tcpudp
+crc_ccitt               1024  0 
+k_netlink_ipc           1744  2 port_status_notify
+vfat                    5312  0 
+fat                    30940  1 vfat
+kdrv_sdmmc             17157  0 
+mmc_block              16644  0 
+mmc_core               50688  2 kdrv_sdmmc,mmc_block
