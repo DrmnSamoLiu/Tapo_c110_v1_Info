@@ -1,8 +1,12 @@
 ## SoC
 
 SSC335 by SigmaStar <br><br>
-Arch: ARM cortex-A7 <br>
-Mem: 512Mb DDR2 <br>
+Core: ARM cortex-A7 <br>
+Mem: 512Mb DDR2 <br><br>
+
+$( file busybox ):  ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), dynamically linked, interpreter /lib/ld-uClibc.so.0, stripped
+
+<br>
 
 ![DSC00696](https://user-images.githubusercontent.com/36998819/152681576-1e04684b-a7b8-4dc9-9c55-9bfaa7e073ed.png)
 
